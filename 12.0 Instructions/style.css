@@ -1,0 +1,101 @@
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.section-1 {
+    width: 1600px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.title {
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.hello {
+    margin-top: 40px;
+}
+
+.subtitle {
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skills {
+    padding-bottom: 100px;
+} 
+
+.inbox, p {
+    display: inline-block;
+    width: 300px;
+}
+
+.profile {
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.animal {
+    float: left;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.section-3 {
+    width: 1600px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+}
+ 
+.section-3 > a {
+    margin-top: 10px;
+}
+.section-3 > a > p {
+    margin-top: 100px;
+}
+
+.text-color {
+    color: antiquewhite;
+}
+
+.nut {
+    background-color: blue;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+}
+.nut:hover {
+    color: aliceblue;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.contact {
+    color: aliceblue;
+    
+}
+
+@media (max-width: 1650px) {
+    .top-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
